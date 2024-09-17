@@ -1,18 +1,3 @@
-<?php
-
-//Make short Variable names
-$firstName = $_REQUEST['first_name_field'];
-$lastName = $_REQUEST['last_name_field'];
-$phone = $_REQUEST['phone_field'];
-$email = $_REQUEST['email_field'];
-$hidden = $_REQUEST['hidden_field'];
-$comments = $_REQUEST['comments_field'];
-$gender = $_REQUEST['gender_field'];
-$available = $_REQUEST['available_field'];
-$age = $_REQUEST['age_field'];
-
-?>
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -54,7 +39,7 @@ $age = $_REQUEST['age_field'];
         <textarea name="comments_field"></textarea>
       </div>
     </fieldset>
-    <input type="hidden" name="hidden_field" value="dkriegls">
+    <input type="hidden" name="Adam Sharifeh" value="Adam Sharifeh">
     <input type="submit">
   </form>
 </body>
